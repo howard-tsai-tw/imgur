@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Show Latest Image</title>
+  </head>
+  <body>
+    <h1>See Latest Image</h1>
+      <% if @bresult == true %>
+        <p>Username: <%= @user %></p>
+        <p>Album: <%= @album %></p>
+        <p>Filename: <%= @filename %></p>
+        <p>Update Time: <%= @imagetime %></p>        
+        <img src=./images/upload/<%= @user %>/<%= @album %>/<%= @filename %> >
+      <% else %>
+       <p>Error: <%= @return_message %></p>
+      <% end %>
+  </body>
+</html>
