@@ -1,0 +1,679 @@
+I, [2015-06-16T01:24:01.075831 #17873]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T01:24:01.077851 #17873]  INFO -- : worker=0 spawning...
+I, [2015-06-16T01:24:01.081701 #17873]  INFO -- : worker=1 spawning...
+I, [2015-06-16T01:24:01.088335 #17876]  INFO -- : worker=0 spawned pid=17876
+I, [2015-06-16T01:24:01.088712 #17876]  INFO -- : Refreshing Gem list
+I, [2015-06-16T01:24:01.092089 #17873]  INFO -- : master process ready
+I, [2015-06-16T01:24:01.100609 #17879]  INFO -- : worker=1 spawned pid=17879
+I, [2015-06-16T01:24:01.100948 #17879]  INFO -- : Refreshing Gem list
+I, [2015-06-16T01:24:03.592738 #17876]  INFO -- : worker=0 ready
+I, [2015-06-16T01:24:03.593901 #17879]  INFO -- : worker=1 ready
+I, [2015-06-16T01:56:07.717074 #17873]  INFO -- : reaped #<Process::Status: pid 17876 exit 0> worker=0
+I, [2015-06-16T01:56:07.717288 #17873]  INFO -- : reaped #<Process::Status: pid 17879 exit 0> worker=1
+I, [2015-06-16T01:56:07.717414 #17873]  INFO -- : master complete
+I, [2015-06-16T01:58:23.347028 #18491]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T01:58:23.351613 #18491]  INFO -- : worker=0 spawning...
+I, [2015-06-16T01:58:23.357206 #18491]  INFO -- : worker=1 spawning...
+I, [2015-06-16T01:58:23.358663 #18494]  INFO -- : worker=0 spawned pid=18494
+I, [2015-06-16T01:58:23.359888 #18491]  INFO -- : master process ready
+I, [2015-06-16T01:58:23.368607 #18497]  INFO -- : worker=1 spawned pid=18497
+I, [2015-06-16T01:58:23.368970 #18497]  INFO -- : Refreshing Gem list
+I, [2015-06-16T01:58:23.359024 #18494]  INFO -- : Refreshing Gem list
+I, [2015-06-16T01:58:25.528895 #18494]  INFO -- : worker=0 ready
+I, [2015-06-16T01:58:25.532642 #18497]  INFO -- : worker=1 ready
+I, [2015-06-16T13:53:16.264137 #18491]  INFO -- : reaped #<Process::Status: pid 18494 exit 0> worker=0
+I, [2015-06-16T13:53:16.264595 #18491]  INFO -- : reaped #<Process::Status: pid 18497 exit 0> worker=1
+I, [2015-06-16T13:53:16.265006 #18491]  INFO -- : master complete
+I, [2015-06-16T14:00:16.511841 #4671]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:00:16.512287 #4671]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:00:16.513323 #4671]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:00:16.516246 #4674]  INFO -- : worker=0 spawned pid=4674
+I, [2015-06-16T14:00:16.516597 #4674]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:00:16.521215 #4671]  INFO -- : master process ready
+I, [2015-06-16T14:00:16.528578 #4677]  INFO -- : worker=1 spawned pid=4677
+I, [2015-06-16T14:00:16.528923 #4677]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:00:18.732227 #4677]  INFO -- : worker=1 ready
+I, [2015-06-16T14:00:18.737478 #4674]  INFO -- : worker=0 ready
+I, [2015-06-16T14:02:13.990637 #4671]  INFO -- : reaped #<Process::Status: pid 4674 exit 0> worker=0
+I, [2015-06-16T14:02:13.990811 #4671]  INFO -- : reaped #<Process::Status: pid 4677 exit 0> worker=1
+I, [2015-06-16T14:02:13.990998 #4671]  INFO -- : master complete
+I, [2015-06-16T14:04:59.407924 #4829]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:04:59.415676 #4829]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:04:59.415952 #4829]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:04:59.417030 #4829]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:04:59.421410 #4832]  INFO -- : worker=0 spawned pid=4832
+I, [2015-06-16T14:04:59.421787 #4832]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:04:59.424110 #4829]  INFO -- : master process ready
+I, [2015-06-16T14:04:59.432608 #4835]  INFO -- : worker=1 spawned pid=4835
+I, [2015-06-16T14:04:59.433075 #4835]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:05:01.563339 #4832]  INFO -- : worker=0 ready
+I, [2015-06-16T14:05:01.568985 #4835]  INFO -- : worker=1 ready
+I, [2015-06-16T14:13:38.748045 #4829]  INFO -- : reaped #<Process::Status: pid 4832 exit 0> worker=0
+I, [2015-06-16T14:13:38.749979 #4829]  INFO -- : reaped #<Process::Status: pid 4835 exit 0> worker=1
+I, [2015-06-16T14:13:38.751178 #4829]  INFO -- : master complete
+I, [2015-06-16T14:13:48.760160 #5119]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:13:48.764043 #5119]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:13:48.764793 #5119]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:13:48.765987 #5119]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:13:48.768280 #5122]  INFO -- : worker=0 spawned pid=5122
+I, [2015-06-16T14:13:48.769539 #5119]  INFO -- : master process ready
+I, [2015-06-16T14:13:48.784291 #5125]  INFO -- : worker=1 spawned pid=5125
+I, [2015-06-16T14:13:48.787205 #5122]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:13:48.796065 #5125]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:13:50.992975 #5125]  INFO -- : worker=1 ready
+I, [2015-06-16T14:13:50.998439 #5122]  INFO -- : worker=0 ready
+I, [2015-06-16T14:18:24.537860 #5119]  INFO -- : reaped #<Process::Status: pid 5122 exit 0> worker=0
+I, [2015-06-16T14:18:24.539116 #5119]  INFO -- : reaped #<Process::Status: pid 5125 exit 0> worker=1
+I, [2015-06-16T14:18:24.541056 #5119]  INFO -- : master complete
+I, [2015-06-16T14:18:57.953276 #5309]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:18:57.959523 #5309]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:18:57.960283 #5309]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:18:57.962046 #5309]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:18:57.967869 #5312]  INFO -- : worker=0 spawned pid=5312
+I, [2015-06-16T14:18:57.969751 #5309]  INFO -- : master process ready
+I, [2015-06-16T14:18:57.976697 #5312]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:18:57.978653 #5315]  INFO -- : worker=1 spawned pid=5315
+I, [2015-06-16T14:18:57.987299 #5315]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:19:00.222613 #5315]  INFO -- : worker=1 ready
+I, [2015-06-16T14:19:00.231181 #5312]  INFO -- : worker=0 ready
+I, [2015-06-16T14:19:36.287530 #5309]  INFO -- : reaped #<Process::Status: pid 5315 exit 0> worker=1
+I, [2015-06-16T14:19:36.388845 #5309]  INFO -- : reaped #<Process::Status: pid 5312 exit 0> worker=0
+I, [2015-06-16T14:19:36.389167 #5309]  INFO -- : master complete
+I, [2015-06-16T14:19:41.076736 #5402]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:19:41.079346 #5402]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:19:41.079882 #5402]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:19:41.081048 #5402]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:19:41.084182 #5402]  INFO -- : master process ready
+I, [2015-06-16T14:19:41.089392 #5405]  INFO -- : worker=0 spawned pid=5405
+I, [2015-06-16T14:19:41.096630 #5407]  INFO -- : worker=1 spawned pid=5407
+I, [2015-06-16T14:19:41.097073 #5405]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:19:41.103208 #5407]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:19:43.756661 #5405]  INFO -- : worker=0 ready
+I, [2015-06-16T14:19:43.759011 #5407]  INFO -- : worker=1 ready
+I, [2015-06-16T14:20:08.443402 #5402]  INFO -- : reaped #<Process::Status: pid 5405 exit 0> worker=0
+I, [2015-06-16T14:20:08.443578 #5402]  INFO -- : reaped #<Process::Status: pid 5407 exit 0> worker=1
+I, [2015-06-16T14:20:08.443742 #5402]  INFO -- : master complete
+I, [2015-06-16T14:20:23.044407 #5493]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:20:23.045173 #5493]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:20:23.047692 #5493]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:20:23.048825 #5493]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:20:23.052057 #5493]  INFO -- : master process ready
+I, [2015-06-16T14:20:23.053495 #5496]  INFO -- : worker=0 spawned pid=5496
+I, [2015-06-16T14:20:23.067231 #5496]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:20:23.068732 #5498]  INFO -- : worker=1 spawned pid=5498
+I, [2015-06-16T14:20:23.075245 #5498]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:20:27.060164 #5498]  INFO -- : worker=1 ready
+I, [2015-06-16T14:20:27.079171 #5496]  INFO -- : worker=0 ready
+I, [2015-06-16T14:20:36.293352 #5493]  INFO -- : reaped #<Process::Status: pid 5496 exit 0> worker=0
+I, [2015-06-16T14:20:36.293583 #5493]  INFO -- : reaped #<Process::Status: pid 5498 exit 0> worker=1
+I, [2015-06-16T14:20:36.293715 #5493]  INFO -- : master complete
+I, [2015-06-16T14:20:56.435709 #5576]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:20:56.436896 #5576]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:20:56.437342 #5576]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:20:56.438573 #5576]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:20:56.445151 #5576]  INFO -- : master process ready
+I, [2015-06-16T14:20:56.452478 #5579]  INFO -- : worker=0 spawned pid=5579
+I, [2015-06-16T14:20:56.454075 #5581]  INFO -- : worker=1 spawned pid=5581
+I, [2015-06-16T14:20:56.459351 #5579]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:20:56.463429 #5581]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:20:58.669467 #5579]  INFO -- : worker=0 ready
+I, [2015-06-16T14:20:58.705541 #5581]  INFO -- : worker=1 ready
+I, [2015-06-16T14:21:25.257972 #5576]  INFO -- : reaped #<Process::Status: pid 5579 exit 0> worker=0
+I, [2015-06-16T14:21:25.258148 #5576]  INFO -- : reaped #<Process::Status: pid 5581 exit 0> worker=1
+I, [2015-06-16T14:21:25.258352 #5576]  INFO -- : master complete
+I, [2015-06-16T14:21:27.907017 #5667]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:21:27.912313 #5667]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:21:27.912694 #5667]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:21:27.914502 #5667]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:21:27.920072 #5667]  INFO -- : master process ready
+I, [2015-06-16T14:21:27.921610 #5670]  INFO -- : worker=0 spawned pid=5670
+I, [2015-06-16T14:21:27.928604 #5672]  INFO -- : worker=1 spawned pid=5672
+I, [2015-06-16T14:21:27.929104 #5670]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:21:27.939222 #5672]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:21:30.226737 #5672]  INFO -- : worker=1 ready
+I, [2015-06-16T14:21:30.233557 #5670]  INFO -- : worker=0 ready
+I, [2015-06-16T14:21:51.192327 #5667]  INFO -- : reaped #<Process::Status: pid 5670 exit 0> worker=0
+I, [2015-06-16T14:21:51.192504 #5667]  INFO -- : reaped #<Process::Status: pid 5672 exit 0> worker=1
+I, [2015-06-16T14:21:51.192628 #5667]  INFO -- : master complete
+I, [2015-06-16T14:21:53.903652 #5752]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:21:53.912443 #5752]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:21:53.912877 #5752]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:21:53.914107 #5752]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:21:53.916828 #5752]  INFO -- : master process ready
+I, [2015-06-16T14:21:53.928850 #5758]  INFO -- : worker=1 spawned pid=5758
+I, [2015-06-16T14:21:53.931269 #5755]  INFO -- : worker=0 spawned pid=5755
+I, [2015-06-16T14:21:53.931732 #5755]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:21:53.951196 #5758]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:21:57.059932 #5755]  INFO -- : worker=0 ready
+I, [2015-06-16T14:21:57.061455 #5758]  INFO -- : worker=1 ready
+I, [2015-06-16T14:24:32.578248 #5752]  INFO -- : reaped #<Process::Status: pid 5755 exit 0> worker=0
+I, [2015-06-16T14:24:32.578433 #5752]  INFO -- : reaped #<Process::Status: pid 5758 exit 0> worker=1
+I, [2015-06-16T14:24:32.578594 #5752]  INFO -- : master complete
+I, [2015-06-16T14:24:35.192704 #5899]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:24:35.193943 #5899]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:24:35.194497 #5899]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:24:35.195614 #5899]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:24:35.201029 #5899]  INFO -- : master process ready
+I, [2015-06-16T14:24:35.209550 #5902]  INFO -- : worker=0 spawned pid=5902
+I, [2015-06-16T14:24:35.215238 #5902]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:24:35.211052 #5904]  INFO -- : worker=1 spawned pid=5904
+I, [2015-06-16T14:24:35.223610 #5904]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:24:37.493876 #5902]  INFO -- : worker=0 ready
+I, [2015-06-16T14:24:37.510334 #5904]  INFO -- : worker=1 ready
+I, [2015-06-16T14:25:04.432592 #5899]  INFO -- : reaped #<Process::Status: pid 5902 exit 0> worker=0
+I, [2015-06-16T14:25:04.432804 #5899]  INFO -- : reaped #<Process::Status: pid 5904 exit 0> worker=1
+I, [2015-06-16T14:25:04.432973 #5899]  INFO -- : master complete
+I, [2015-06-16T14:25:14.620995 #5988]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:25:14.622006 #5988]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:25:14.624449 #5988]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:25:14.626209 #5988]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:25:14.629417 #5991]  INFO -- : worker=0 spawned pid=5991
+I, [2015-06-16T14:25:14.630833 #5988]  INFO -- : master process ready
+I, [2015-06-16T14:25:14.641595 #5994]  INFO -- : worker=1 spawned pid=5994
+I, [2015-06-16T14:25:14.643182 #5991]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:25:14.652089 #5994]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:25:16.928910 #5994]  INFO -- : worker=1 ready
+I, [2015-06-16T14:25:16.938588 #5991]  INFO -- : worker=0 ready
+I, [2015-06-16T14:25:35.699669 #5988]  INFO -- : reaped #<Process::Status: pid 5991 exit 0> worker=0
+I, [2015-06-16T14:25:35.699819 #5988]  INFO -- : reaped #<Process::Status: pid 5994 exit 0> worker=1
+I, [2015-06-16T14:25:35.699966 #5988]  INFO -- : master complete
+I, [2015-06-16T14:25:36.968441 #6075]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:25:36.971355 #6075]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:25:36.971756 #6075]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:25:36.972933 #6075]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:25:36.976405 #6078]  INFO -- : worker=0 spawned pid=6078
+I, [2015-06-16T14:25:36.977685 #6075]  INFO -- : master process ready
+I, [2015-06-16T14:25:36.992390 #6081]  INFO -- : worker=1 spawned pid=6081
+I, [2015-06-16T14:25:36.992877 #6078]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:25:36.999231 #6081]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:25:39.195518 #6078]  INFO -- : worker=0 ready
+I, [2015-06-16T14:25:39.205231 #6081]  INFO -- : worker=1 ready
+I, [2015-06-16T14:26:12.145168 #6075]  INFO -- : reaped #<Process::Status: pid 6078 exit 0> worker=0
+I, [2015-06-16T14:26:12.145335 #6075]  INFO -- : reaped #<Process::Status: pid 6081 exit 0> worker=1
+I, [2015-06-16T14:26:12.145488 #6075]  INFO -- : master complete
+I, [2015-06-16T14:26:13.382398 #6124]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:26:13.384604 #6124]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:26:13.385090 #6124]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:26:13.389160 #6124]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:26:13.392343 #6124]  INFO -- : master process ready
+I, [2015-06-16T14:26:13.391098 #6127]  INFO -- : worker=0 spawned pid=6127
+I, [2015-06-16T14:26:13.416092 #6127]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:26:13.455519 #6130]  INFO -- : worker=1 spawned pid=6130
+I, [2015-06-16T14:26:13.455966 #6130]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:26:15.687426 #6127]  INFO -- : worker=0 ready
+I, [2015-06-16T14:26:15.691074 #6130]  INFO -- : worker=1 ready
+I, [2015-06-16T14:27:07.914808 #6124]  INFO -- : reaped #<Process::Status: pid 6127 exit 0> worker=0
+I, [2015-06-16T14:27:07.915595 #6124]  INFO -- : reaped #<Process::Status: pid 6130 exit 0> worker=1
+I, [2015-06-16T14:27:07.916312 #6124]  INFO -- : master complete
+I, [2015-06-16T14:27:09.181283 #6223]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:27:09.181916 #6223]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:27:09.182185 #6223]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:27:09.183386 #6223]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:27:09.188417 #6226]  INFO -- : worker=0 spawned pid=6226
+I, [2015-06-16T14:27:09.189794 #6223]  INFO -- : master process ready
+I, [2015-06-16T14:27:09.197677 #6229]  INFO -- : worker=1 spawned pid=6229
+I, [2015-06-16T14:27:09.198140 #6226]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:27:09.219220 #6229]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:27:11.460956 #6226]  INFO -- : worker=0 ready
+I, [2015-06-16T14:27:11.484821 #6229]  INFO -- : worker=1 ready
+I, [2015-06-16T14:34:44.067854 #6223]  INFO -- : reaped #<Process::Status: pid 6226 exit 0> worker=0
+I, [2015-06-16T14:34:44.068052 #6223]  INFO -- : reaped #<Process::Status: pid 6229 exit 0> worker=1
+I, [2015-06-16T14:34:44.068218 #6223]  INFO -- : master complete
+I, [2015-06-16T14:34:45.280491 #6551]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:34:45.281286 #6551]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:34:45.281650 #6551]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:34:45.284238 #6551]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:34:45.288333 #6554]  INFO -- : worker=0 spawned pid=6554
+I, [2015-06-16T14:34:45.289586 #6551]  INFO -- : master process ready
+I, [2015-06-16T14:34:45.296628 #6557]  INFO -- : worker=1 spawned pid=6557
+I, [2015-06-16T14:34:45.297074 #6554]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:34:45.315206 #6557]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:34:47.592806 #6557]  INFO -- : worker=1 ready
+I, [2015-06-16T14:34:47.603864 #6554]  INFO -- : worker=0 ready
+I, [2015-06-16T14:35:38.136954 #6551]  INFO -- : reaped #<Process::Status: pid 6554 exit 0> worker=0
+I, [2015-06-16T14:35:38.137118 #6551]  INFO -- : reaped #<Process::Status: pid 6557 exit 0> worker=1
+I, [2015-06-16T14:35:38.137258 #6551]  INFO -- : master complete
+I, [2015-06-16T14:35:39.423606 #6647]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:35:39.424580 #6647]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:35:39.424874 #6647]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:35:39.428204 #6647]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:35:39.433083 #6650]  INFO -- : worker=0 spawned pid=6650
+I, [2015-06-16T14:35:39.434704 #6647]  INFO -- : master process ready
+I, [2015-06-16T14:35:39.440710 #6653]  INFO -- : worker=1 spawned pid=6653
+I, [2015-06-16T14:35:39.443189 #6650]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:35:39.455223 #6653]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:35:41.737495 #6653]  INFO -- : worker=1 ready
+I, [2015-06-16T14:35:41.753018 #6650]  INFO -- : worker=0 ready
+I, [2015-06-16T14:37:55.012063 #6647]  INFO -- : reaped #<Process::Status: pid 6650 exit 0> worker=0
+I, [2015-06-16T14:37:55.012263 #6647]  INFO -- : reaped #<Process::Status: pid 6653 exit 0> worker=1
+I, [2015-06-16T14:37:55.012428 #6647]  INFO -- : master complete
+I, [2015-06-16T14:37:56.296690 #6789]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:37:56.297434 #6789]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:37:56.297846 #6789]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:37:56.299018 #6789]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:37:56.300429 #6792]  INFO -- : worker=0 spawned pid=6792
+I, [2015-06-16T14:37:56.301564 #6789]  INFO -- : master process ready
+I, [2015-06-16T14:37:56.308713 #6795]  INFO -- : worker=1 spawned pid=6795
+I, [2015-06-16T14:37:56.309171 #6792]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:37:56.319215 #6795]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:37:58.580880 #6795]  INFO -- : worker=1 ready
+I, [2015-06-16T14:37:58.588753 #6792]  INFO -- : worker=0 ready
+I, [2015-06-16T14:38:39.299600 #6789]  INFO -- : reaped #<Process::Status: pid 6792 exit 0> worker=0
+I, [2015-06-16T14:38:39.299760 #6789]  INFO -- : reaped #<Process::Status: pid 6795 exit 0> worker=1
+I, [2015-06-16T14:38:39.299913 #6789]  INFO -- : master complete
+I, [2015-06-16T14:38:40.559071 #6884]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:38:40.563942 #6884]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:38:40.564223 #6884]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:38:40.565311 #6884]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:38:40.566717 #6887]  INFO -- : worker=0 spawned pid=6887
+I, [2015-06-16T14:38:40.569400 #6884]  INFO -- : master process ready
+I, [2015-06-16T14:38:40.577244 #6890]  INFO -- : worker=1 spawned pid=6890
+I, [2015-06-16T14:38:40.584479 #6887]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:38:40.592518 #6890]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:38:43.411971 #6887]  INFO -- : worker=0 ready
+I, [2015-06-16T14:38:43.414552 #6890]  INFO -- : worker=1 ready
+I, [2015-06-16T14:40:12.796347 #6884]  INFO -- : reaped #<Process::Status: pid 6887 exit 0> worker=0
+I, [2015-06-16T14:40:12.796596 #6884]  INFO -- : reaped #<Process::Status: pid 6890 exit 0> worker=1
+I, [2015-06-16T14:40:12.796784 #6884]  INFO -- : master complete
+I, [2015-06-16T14:40:14.075983 #7025]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:40:14.079995 #7025]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:40:14.083288 #7025]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:40:14.084499 #7025]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:40:14.085894 #7028]  INFO -- : worker=0 spawned pid=7028
+I, [2015-06-16T14:40:14.087278 #7025]  INFO -- : master process ready
+I, [2015-06-16T14:40:14.100632 #7031]  INFO -- : worker=1 spawned pid=7031
+I, [2015-06-16T14:40:14.101597 #7028]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:40:14.108796 #7031]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:40:16.413690 #7028]  INFO -- : worker=0 ready
+I, [2015-06-16T14:40:16.431065 #7031]  INFO -- : worker=1 ready
+I, [2015-06-16T14:41:46.791209 #7025]  INFO -- : reaped #<Process::Status: pid 7028 exit 0> worker=0
+I, [2015-06-16T14:41:46.791388 #7025]  INFO -- : reaped #<Process::Status: pid 7031 exit 0> worker=1
+I, [2015-06-16T14:41:46.791517 #7025]  INFO -- : master complete
+I, [2015-06-16T14:41:48.091825 #7138]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:41:48.099367 #7138]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:41:48.099747 #7138]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:41:48.100855 #7138]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:41:48.102262 #7141]  INFO -- : worker=0 spawned pid=7141
+I, [2015-06-16T14:41:48.103324 #7138]  INFO -- : master process ready
+I, [2015-06-16T14:41:48.120333 #7144]  INFO -- : worker=1 spawned pid=7144
+I, [2015-06-16T14:41:48.120830 #7141]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:41:48.127274 #7144]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:41:51.132375 #7141]  INFO -- : worker=0 ready
+I, [2015-06-16T14:41:51.151977 #7144]  INFO -- : worker=1 ready
+I, [2015-06-16T14:42:16.057177 #7138]  INFO -- : reaped #<Process::Status: pid 7141 exit 0> worker=0
+I, [2015-06-16T14:42:16.057385 #7138]  INFO -- : reaped #<Process::Status: pid 7144 exit 0> worker=1
+I, [2015-06-16T14:42:16.057509 #7138]  INFO -- : master complete
+I, [2015-06-16T14:42:17.388872 #7226]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:42:17.389664 #7226]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:42:17.389983 #7226]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:42:17.392135 #7226]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:42:17.396486 #7229]  INFO -- : worker=0 spawned pid=7229
+I, [2015-06-16T14:42:17.397756 #7226]  INFO -- : master process ready
+I, [2015-06-16T14:42:17.404665 #7232]  INFO -- : worker=1 spawned pid=7232
+I, [2015-06-16T14:42:17.411184 #7229]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:42:17.419987 #7232]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:42:21.054805 #7232]  INFO -- : worker=1 ready
+I, [2015-06-16T14:42:21.064346 #7229]  INFO -- : worker=0 ready
+I, [2015-06-16T14:42:58.547631 #7226]  INFO -- : reaped #<Process::Status: pid 7229 exit 0> worker=0
+I, [2015-06-16T14:42:58.547810 #7226]  INFO -- : reaped #<Process::Status: pid 7232 exit 0> worker=1
+I, [2015-06-16T14:42:58.547976 #7226]  INFO -- : master complete
+I, [2015-06-16T14:42:59.831293 #7320]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:42:59.832119 #7320]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:42:59.832387 #7320]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:42:59.833549 #7320]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:42:59.836586 #7323]  INFO -- : worker=0 spawned pid=7323
+I, [2015-06-16T14:42:59.838509 #7320]  INFO -- : master process ready
+I, [2015-06-16T14:42:59.853544 #7326]  INFO -- : worker=1 spawned pid=7326
+I, [2015-06-16T14:42:59.854111 #7323]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:42:59.867215 #7326]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:43:03.032568 #7323]  INFO -- : worker=0 ready
+I, [2015-06-16T14:43:03.026913 #7326]  INFO -- : worker=1 ready
+I, [2015-06-16T14:43:55.655787 #7320]  INFO -- : reaped #<Process::Status: pid 7323 exit 0> worker=0
+I, [2015-06-16T14:43:55.655943 #7320]  INFO -- : reaped #<Process::Status: pid 7326 exit 0> worker=1
+I, [2015-06-16T14:43:55.656082 #7320]  INFO -- : master complete
+I, [2015-06-16T14:43:56.976697 #7419]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T14:43:56.977497 #7419]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T14:43:56.977771 #7419]  INFO -- : worker=0 spawning...
+I, [2015-06-16T14:43:56.978888 #7419]  INFO -- : worker=1 spawning...
+I, [2015-06-16T14:43:56.980387 #7422]  INFO -- : worker=0 spawned pid=7422
+I, [2015-06-16T14:43:56.981644 #7419]  INFO -- : master process ready
+I, [2015-06-16T14:43:56.996307 #7425]  INFO -- : worker=1 spawned pid=7425
+I, [2015-06-16T14:43:56.999898 #7422]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:43:57.007951 #7425]  INFO -- : Refreshing Gem list
+I, [2015-06-16T14:44:00.437848 #7422]  INFO -- : worker=0 ready
+I, [2015-06-16T14:44:00.460562 #7425]  INFO -- : worker=1 ready
+I, [2015-06-16T15:09:41.657510 #7419]  INFO -- : reaped #<Process::Status: pid 7422 exit 0> worker=0
+I, [2015-06-16T15:09:41.657716 #7419]  INFO -- : reaped #<Process::Status: pid 7425 exit 0> worker=1
+I, [2015-06-16T15:09:41.657844 #7419]  INFO -- : master complete
+I, [2015-06-16T15:09:42.880485 #8125]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T15:09:42.883395 #8125]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T15:09:42.883766 #8125]  INFO -- : worker=0 spawning...
+I, [2015-06-16T15:09:42.884889 #8125]  INFO -- : worker=1 spawning...
+I, [2015-06-16T15:09:42.891733 #8125]  INFO -- : master process ready
+I, [2015-06-16T15:09:42.904367 #8131]  INFO -- : worker=1 spawned pid=8131
+I, [2015-06-16T15:09:42.908418 #8131]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:09:42.909429 #8128]  INFO -- : worker=0 spawned pid=8128
+I, [2015-06-16T15:09:42.915191 #8128]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:09:45.260342 #8128]  INFO -- : worker=0 ready
+I, [2015-06-16T15:09:45.262685 #8131]  INFO -- : worker=1 ready
+I, [2015-06-16T15:10:24.339249 #8125]  INFO -- : reaped #<Process::Status: pid 8128 exit 0> worker=0
+I, [2015-06-16T15:10:24.339662 #8125]  INFO -- : reaped #<Process::Status: pid 8131 exit 0> worker=1
+I, [2015-06-16T15:10:24.339837 #8125]  INFO -- : master complete
+I, [2015-06-16T15:10:25.592966 #8224]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T15:10:25.593545 #8224]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T15:10:25.593842 #8224]  INFO -- : worker=0 spawning...
+I, [2015-06-16T15:10:25.595034 #8224]  INFO -- : worker=1 spawning...
+I, [2015-06-16T15:10:25.600456 #8224]  INFO -- : master process ready
+I, [2015-06-16T15:10:25.601873 #8227]  INFO -- : worker=0 spawned pid=8227
+I, [2015-06-16T15:10:25.610016 #8229]  INFO -- : worker=1 spawned pid=8229
+I, [2015-06-16T15:10:25.610486 #8227]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:10:25.627205 #8229]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:10:28.335040 #8227]  INFO -- : worker=0 ready
+I, [2015-06-16T15:10:28.347011 #8229]  INFO -- : worker=1 ready
+I, [2015-06-16T15:10:41.503611 #8224]  INFO -- : reaped #<Process::Status: pid 8227 exit 0> worker=0
+I, [2015-06-16T15:10:41.503784 #8224]  INFO -- : reaped #<Process::Status: pid 8229 exit 0> worker=1
+I, [2015-06-16T15:10:41.503948 #8224]  INFO -- : master complete
+I, [2015-06-16T15:10:42.760105 #8307]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T15:10:42.763347 #8307]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T15:10:42.763693 #8307]  INFO -- : worker=0 spawning...
+I, [2015-06-16T15:10:42.764757 #8307]  INFO -- : worker=1 spawning...
+I, [2015-06-16T15:10:42.768280 #8310]  INFO -- : worker=0 spawned pid=8310
+I, [2015-06-16T15:10:42.769575 #8307]  INFO -- : master process ready
+I, [2015-06-16T15:10:42.776550 #8313]  INFO -- : worker=1 spawned pid=8313
+I, [2015-06-16T15:10:42.777007 #8310]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:10:42.791214 #8313]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:10:44.970719 #8313]  INFO -- : worker=1 ready
+I, [2015-06-16T15:10:45.004460 #8310]  INFO -- : worker=0 ready
+I, [2015-06-16T15:11:01.555596 #8307]  INFO -- : reaped #<Process::Status: pid 8310 exit 0> worker=0
+I, [2015-06-16T15:11:01.555745 #8307]  INFO -- : reaped #<Process::Status: pid 8313 exit 0> worker=1
+I, [2015-06-16T15:11:01.555877 #8307]  INFO -- : master complete
+I, [2015-06-16T15:11:02.867870 #8392]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T15:11:02.868648 #8392]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T15:11:02.868979 #8392]  INFO -- : worker=0 spawning...
+I, [2015-06-16T15:11:02.872132 #8392]  INFO -- : worker=1 spawning...
+I, [2015-06-16T15:11:02.873573 #8395]  INFO -- : worker=0 spawned pid=8395
+I, [2015-06-16T15:11:02.875992 #8392]  INFO -- : master process ready
+I, [2015-06-16T15:11:02.888280 #8398]  INFO -- : worker=1 spawned pid=8398
+I, [2015-06-16T15:11:02.891418 #8395]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:11:02.899251 #8398]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:11:06.482598 #8398]  INFO -- : worker=1 ready
+I, [2015-06-16T15:11:06.505850 #8395]  INFO -- : worker=0 ready
+I, [2015-06-16T15:17:28.996342 #8392]  INFO -- : reaped #<Process::Status: pid 8395 exit 0> worker=0
+I, [2015-06-16T15:17:28.996556 #8392]  INFO -- : reaped #<Process::Status: pid 8398 exit 0> worker=1
+I, [2015-06-16T15:17:28.996720 #8392]  INFO -- : master complete
+I, [2015-06-16T15:17:30.205011 #8630]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T15:17:30.205763 #8630]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T15:17:30.206217 #8630]  INFO -- : worker=0 spawning...
+I, [2015-06-16T15:17:30.208002 #8630]  INFO -- : worker=1 spawning...
+I, [2015-06-16T15:17:30.213492 #8633]  INFO -- : worker=0 spawned pid=8633
+I, [2015-06-16T15:17:30.214755 #8630]  INFO -- : master process ready
+I, [2015-06-16T15:17:30.220613 #8636]  INFO -- : worker=1 spawned pid=8636
+I, [2015-06-16T15:17:30.223182 #8633]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:17:30.239185 #8636]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:17:32.513471 #8636]  INFO -- : worker=1 ready
+I, [2015-06-16T15:17:32.515832 #8633]  INFO -- : worker=0 ready
+I, [2015-06-16T15:22:26.507440 #8630]  INFO -- : reaped #<Process::Status: pid 8633 exit 0> worker=0
+I, [2015-06-16T15:22:26.507613 #8630]  INFO -- : reaped #<Process::Status: pid 8636 exit 0> worker=1
+I, [2015-06-16T15:22:26.507733 #8630]  INFO -- : master complete
+I, [2015-06-16T15:22:27.848248 #8839]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T15:22:27.849224 #8839]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T15:22:27.849557 #8839]  INFO -- : worker=0 spawning...
+I, [2015-06-16T15:22:27.850693 #8839]  INFO -- : worker=1 spawning...
+I, [2015-06-16T15:22:27.857371 #8842]  INFO -- : worker=0 spawned pid=8842
+I, [2015-06-16T15:22:27.859320 #8839]  INFO -- : master process ready
+I, [2015-06-16T15:22:27.864731 #8845]  INFO -- : worker=1 spawned pid=8845
+I, [2015-06-16T15:22:27.995031 #8845]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:22:28.003018 #8842]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:22:30.236332 #8845]  INFO -- : worker=1 ready
+I, [2015-06-16T15:22:30.247200 #8842]  INFO -- : worker=0 ready
+I, [2015-06-16T15:23:58.079856 #8839]  INFO -- : reaped #<Process::Status: pid 8842 exit 0> worker=0
+I, [2015-06-16T15:23:58.080060 #8839]  INFO -- : reaped #<Process::Status: pid 8845 exit 0> worker=1
+I, [2015-06-16T15:23:58.080220 #8839]  INFO -- : master complete
+I, [2015-06-16T15:23:59.378079 #8956]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T15:23:59.384283 #8956]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T15:23:59.384684 #8956]  INFO -- : worker=0 spawning...
+I, [2015-06-16T15:23:59.385927 #8956]  INFO -- : worker=1 spawning...
+I, [2015-06-16T15:23:59.387903 #8956]  INFO -- : master process ready
+I, [2015-06-16T15:23:59.387028 #8959]  INFO -- : worker=0 spawned pid=8959
+I, [2015-06-16T15:23:59.404340 #8962]  INFO -- : worker=1 spawned pid=8962
+I, [2015-06-16T15:23:59.550089 #8962]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:23:59.551220 #8959]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:24:01.762540 #8962]  INFO -- : worker=1 ready
+I, [2015-06-16T15:24:01.773039 #8959]  INFO -- : worker=0 ready
+I, [2015-06-16T15:55:02.661052 #10052]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T15:55:02.661508 #10052]  INFO -- : worker=0 spawning...
+I, [2015-06-16T15:55:02.664054 #10052]  INFO -- : worker=1 spawning...
+I, [2015-06-16T15:55:02.667880 #10055]  INFO -- : worker=0 spawned pid=10055
+I, [2015-06-16T15:55:02.673184 #10052]  INFO -- : master process ready
+I, [2015-06-16T15:55:02.680237 #10058]  INFO -- : worker=1 spawned pid=10058
+I, [2015-06-16T15:55:02.802832 #10058]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:55:02.795032 #10055]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:55:04.857302 #10058]  INFO -- : worker=1 ready
+I, [2015-06-16T15:55:04.864644 #10055]  INFO -- : worker=0 ready
+I, [2015-06-16T15:55:06.507818 #10052]  INFO -- : reaped #<Process::Status: pid 10055 exit 0> worker=0
+I, [2015-06-16T15:55:06.507972 #10052]  INFO -- : reaped #<Process::Status: pid 10058 exit 0> worker=1
+I, [2015-06-16T15:55:06.508154 #10052]  INFO -- : master complete
+I, [2015-06-16T15:55:07.659631 #10101]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T15:55:07.660147 #10101]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T15:55:07.660443 #10101]  INFO -- : worker=0 spawning...
+I, [2015-06-16T15:55:07.661464 #10101]  INFO -- : worker=1 spawning...
+I, [2015-06-16T15:55:07.668197 #10101]  INFO -- : master process ready
+I, [2015-06-16T15:55:07.673036 #10104]  INFO -- : worker=0 spawned pid=10104
+I, [2015-06-16T15:55:07.680215 #10106]  INFO -- : worker=1 spawned pid=10106
+I, [2015-06-16T15:55:07.795933 #10104]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:55:07.804626 #10106]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:55:09.837818 #10104]  INFO -- : worker=0 ready
+I, [2015-06-16T15:55:09.845158 #10106]  INFO -- : worker=1 ready
+I, [2015-06-16T15:56:36.012212 #10101]  INFO -- : reaped #<Process::Status: pid 10104 exit 0> worker=0
+I, [2015-06-16T15:56:36.012356 #10101]  INFO -- : reaped #<Process::Status: pid 10106 exit 0> worker=1
+I, [2015-06-16T15:56:36.012468 #10101]  INFO -- : master complete
+I, [2015-06-16T15:56:37.324720 #10174]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T15:56:37.325250 #10174]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T15:56:37.325535 #10174]  INFO -- : worker=0 spawning...
+I, [2015-06-16T15:56:37.331980 #10174]  INFO -- : worker=1 spawning...
+I, [2015-06-16T15:56:37.332965 #10177]  INFO -- : worker=0 spawned pid=10177
+I, [2015-06-16T15:56:37.337418 #10174]  INFO -- : master process ready
+I, [2015-06-16T15:56:37.344282 #10180]  INFO -- : worker=1 spawned pid=10180
+I, [2015-06-16T15:56:37.464685 #10180]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:56:37.472238 #10177]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:56:39.570750 #10180]  INFO -- : worker=1 ready
+I, [2015-06-16T15:56:39.571291 #10177]  INFO -- : worker=0 ready
+I, [2015-06-16T15:58:20.960327 #10174]  INFO -- : reaped #<Process::Status: pid 10177 exit 0> worker=0
+I, [2015-06-16T15:58:20.960481 #10174]  INFO -- : reaped #<Process::Status: pid 10180 exit 0> worker=1
+I, [2015-06-16T15:58:20.960635 #10174]  INFO -- : master complete
+I, [2015-06-16T15:58:22.155614 #10224]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T15:58:22.156074 #10224]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T15:58:22.156328 #10224]  INFO -- : worker=0 spawning...
+I, [2015-06-16T15:58:22.160933 #10224]  INFO -- : worker=1 spawning...
+I, [2015-06-16T15:58:22.162062 #10227]  INFO -- : worker=0 spawned pid=10227
+I, [2015-06-16T15:58:22.164326 #10224]  INFO -- : master process ready
+I, [2015-06-16T15:58:22.180033 #10230]  INFO -- : worker=1 spawned pid=10230
+I, [2015-06-16T15:58:22.282582 #10227]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:58:22.302838 #10230]  INFO -- : Refreshing Gem list
+I, [2015-06-16T15:58:24.498599 #10227]  INFO -- : worker=0 ready
+I, [2015-06-16T15:58:24.500190 #10230]  INFO -- : worker=1 ready
+I, [2015-06-16T17:44:57.842167 #10224]  INFO -- : reaped #<Process::Status: pid 10227 exit 0> worker=0
+I, [2015-06-16T17:44:57.842353 #10224]  INFO -- : reaped #<Process::Status: pid 10230 exit 0> worker=1
+I, [2015-06-16T17:44:57.842520 #10224]  INFO -- : master complete
+I, [2015-06-16T17:44:59.035668 #12920]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T17:44:59.036527 #12920]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T17:44:59.036771 #12920]  INFO -- : worker=0 spawning...
+I, [2015-06-16T17:44:59.039372 #12920]  INFO -- : worker=1 spawning...
+I, [2015-06-16T17:44:59.043897 #12923]  INFO -- : worker=0 spawned pid=12923
+I, [2015-06-16T17:44:59.048817 #12920]  INFO -- : master process ready
+I, [2015-06-16T17:44:59.056209 #12926]  INFO -- : worker=1 spawned pid=12926
+I, [2015-06-16T17:44:59.177666 #12923]  INFO -- : Refreshing Gem list
+I, [2015-06-16T17:44:59.184242 #12926]  INFO -- : Refreshing Gem list
+I, [2015-06-16T17:45:01.545162 #12926]  INFO -- : worker=1 ready
+I, [2015-06-16T17:45:01.549143 #12923]  INFO -- : worker=0 ready
+I, [2015-06-16T17:47:03.523516 #12920]  INFO -- : reaped #<Process::Status: pid 12923 exit 0> worker=0
+I, [2015-06-16T17:47:03.523666 #12920]  INFO -- : reaped #<Process::Status: pid 12926 exit 0> worker=1
+I, [2015-06-16T17:47:03.523776 #12920]  INFO -- : master complete
+I, [2015-06-16T17:47:04.764697 #13046]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T17:47:04.765144 #13046]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T17:47:04.765328 #13046]  INFO -- : worker=0 spawning...
+I, [2015-06-16T17:47:04.766305 #13046]  INFO -- : worker=1 spawning...
+I, [2015-06-16T17:47:04.767843 #13049]  INFO -- : worker=0 spawned pid=13049
+I, [2015-06-16T17:47:04.776021 #13046]  INFO -- : master process ready
+I, [2015-06-16T17:47:04.784181 #13052]  INFO -- : worker=1 spawned pid=13052
+I, [2015-06-16T17:47:04.906609 #13052]  INFO -- : Refreshing Gem list
+I, [2015-06-16T17:47:04.923876 #13049]  INFO -- : Refreshing Gem list
+I, [2015-06-16T17:47:08.612989 #13049]  INFO -- : worker=0 ready
+I, [2015-06-16T17:47:08.631660 #13052]  INFO -- : worker=1 ready
+I, [2015-06-16T17:48:16.599562 #13046]  INFO -- : reaped #<Process::Status: pid 13049 exit 0> worker=0
+I, [2015-06-16T17:48:16.599723 #13046]  INFO -- : reaped #<Process::Status: pid 13052 exit 0> worker=1
+I, [2015-06-16T17:48:16.599837 #13046]  INFO -- : master complete
+I, [2015-06-16T17:48:17.829625 #13152]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T17:48:17.830322 #13152]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T17:48:17.830639 #13152]  INFO -- : worker=0 spawning...
+I, [2015-06-16T17:48:17.835829 #13152]  INFO -- : worker=1 spawning...
+I, [2015-06-16T17:48:17.837551 #13155]  INFO -- : worker=0 spawned pid=13155
+I, [2015-06-16T17:48:17.842158 #13152]  INFO -- : master process ready
+I, [2015-06-16T17:48:17.847999 #13158]  INFO -- : worker=1 spawned pid=13158
+I, [2015-06-16T17:48:17.973071 #13155]  INFO -- : Refreshing Gem list
+I, [2015-06-16T17:48:17.979117 #13158]  INFO -- : Refreshing Gem list
+I, [2015-06-16T17:48:20.100103 #13155]  INFO -- : worker=0 ready
+I, [2015-06-16T17:48:20.102524 #13158]  INFO -- : worker=1 ready
+I, [2015-06-16T18:07:04.947781 #13152]  INFO -- : reaped #<Process::Status: pid 13155 exit 0> worker=0
+I, [2015-06-16T18:07:04.947998 #13152]  INFO -- : reaped #<Process::Status: pid 13158 exit 0> worker=1
+I, [2015-06-16T18:07:04.948121 #13152]  INFO -- : master complete
+I, [2015-06-16T18:07:06.498128 #13698]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T18:07:06.498593 #13698]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T18:07:06.498785 #13698]  INFO -- : worker=0 spawning...
+I, [2015-06-16T18:07:06.504903 #13698]  INFO -- : worker=1 spawning...
+I, [2015-06-16T18:07:06.505936 #13701]  INFO -- : worker=0 spawned pid=13701
+I, [2015-06-16T18:07:06.508785 #13698]  INFO -- : master process ready
+I, [2015-06-16T18:07:06.517166 #13704]  INFO -- : worker=1 spawned pid=13704
+I, [2015-06-16T18:07:06.670117 #13701]  INFO -- : Refreshing Gem list
+I, [2015-06-16T18:07:06.696967 #13704]  INFO -- : Refreshing Gem list
+I, [2015-06-16T18:07:09.320201 #13704]  INFO -- : worker=1 ready
+I, [2015-06-16T18:07:09.326217 #13701]  INFO -- : worker=0 ready
+I, [2015-06-16T18:09:06.785356 #13698]  INFO -- : reaped #<Process::Status: pid 13701 exit 0> worker=0
+I, [2015-06-16T18:09:06.785570 #13698]  INFO -- : reaped #<Process::Status: pid 13704 exit 0> worker=1
+I, [2015-06-16T18:09:06.785700 #13698]  INFO -- : master complete
+I, [2015-06-16T18:09:08.020500 #13822]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T18:09:08.020966 #13822]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T18:09:08.021158 #13822]  INFO -- : worker=0 spawning...
+I, [2015-06-16T18:09:08.025525 #13822]  INFO -- : worker=1 spawning...
+I, [2015-06-16T18:09:08.028405 #13825]  INFO -- : worker=0 spawned pid=13825
+I, [2015-06-16T18:09:08.032164 #13822]  INFO -- : master process ready
+I, [2015-06-16T18:09:08.052261 #13828]  INFO -- : worker=1 spawned pid=13828
+I, [2015-06-16T18:09:08.177432 #13825]  INFO -- : Refreshing Gem list
+I, [2015-06-16T18:09:08.188094 #13828]  INFO -- : Refreshing Gem list
+I, [2015-06-16T18:09:10.388068 #13828]  INFO -- : worker=1 ready
+I, [2015-06-16T18:09:10.391085 #13825]  INFO -- : worker=0 ready
+I, [2015-06-16T18:14:25.496888 #13822]  INFO -- : reaped #<Process::Status: pid 13825 exit 0> worker=0
+I, [2015-06-16T18:14:25.497041 #13822]  INFO -- : reaped #<Process::Status: pid 13828 exit 0> worker=1
+I, [2015-06-16T18:14:25.497152 #13822]  INFO -- : master complete
+I, [2015-06-16T18:14:26.705350 #14012]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T18:14:26.705789 #14012]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T18:14:26.706038 #14012]  INFO -- : worker=0 spawning...
+I, [2015-06-16T18:14:26.708059 #14012]  INFO -- : worker=1 spawning...
+I, [2015-06-16T18:14:26.712081 #14012]  INFO -- : master process ready
+I, [2015-06-16T18:14:26.717530 #14015]  INFO -- : worker=0 spawned pid=14015
+I, [2015-06-16T18:14:26.732365 #14017]  INFO -- : worker=1 spawned pid=14017
+I, [2015-06-16T18:14:26.864742 #14015]  INFO -- : Refreshing Gem list
+I, [2015-06-16T18:14:26.874825 #14017]  INFO -- : Refreshing Gem list
+I, [2015-06-16T18:14:30.364725 #14015]  INFO -- : worker=0 ready
+I, [2015-06-16T18:14:30.373470 #14017]  INFO -- : worker=1 ready
+I, [2015-06-16T18:19:29.090644 #14012]  INFO -- : reaped #<Process::Status: pid 14015 exit 0> worker=0
+I, [2015-06-16T18:19:29.090790 #14012]  INFO -- : reaped #<Process::Status: pid 14017 exit 0> worker=1
+I, [2015-06-16T18:19:29.091002 #14012]  INFO -- : master complete
+I, [2015-06-16T18:19:30.332861 #14215]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T18:19:30.333363 #14215]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T18:19:30.333627 #14215]  INFO -- : worker=0 spawning...
+I, [2015-06-16T18:19:30.334681 #14215]  INFO -- : worker=1 spawning...
+I, [2015-06-16T18:19:30.336663 #14218]  INFO -- : worker=0 spawned pid=14218
+I, [2015-06-16T18:19:30.340061 #14215]  INFO -- : master process ready
+I, [2015-06-16T18:19:30.351981 #14221]  INFO -- : worker=1 spawned pid=14221
+I, [2015-06-16T18:19:30.466560 #14218]  INFO -- : Refreshing Gem list
+I, [2015-06-16T18:19:30.488318 #14221]  INFO -- : Refreshing Gem list
+I, [2015-06-16T18:19:33.809146 #14218]  INFO -- : worker=0 ready
+I, [2015-06-16T18:19:33.811042 #14221]  INFO -- : worker=1 ready
+I, [2015-06-16T18:23:57.430632 #14215]  INFO -- : reaped #<Process::Status: pid 14218 exit 0> worker=0
+I, [2015-06-16T18:23:57.430816 #14215]  INFO -- : reaped #<Process::Status: pid 14221 exit 0> worker=1
+I, [2015-06-16T18:23:57.431007 #14215]  INFO -- : master complete
+I, [2015-06-16T18:23:58.672064 #14401]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T18:23:58.672528 #14401]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T18:23:58.672741 #14401]  INFO -- : worker=0 spawning...
+I, [2015-06-16T18:23:58.676009 #14401]  INFO -- : worker=1 spawning...
+I, [2015-06-16T18:23:58.677213 #14404]  INFO -- : worker=0 spawned pid=14404
+I, [2015-06-16T18:23:58.680913 #14401]  INFO -- : master process ready
+I, [2015-06-16T18:23:58.697092 #14407]  INFO -- : worker=1 spawned pid=14407
+I, [2015-06-16T18:23:58.801573 #14404]  INFO -- : Refreshing Gem list
+I, [2015-06-16T18:23:58.810881 #14407]  INFO -- : Refreshing Gem list
+I, [2015-06-16T18:24:00.972029 #14407]  INFO -- : worker=1 ready
+I, [2015-06-16T18:24:00.976569 #14404]  INFO -- : worker=0 ready
+I, [2015-06-16T18:24:21.372619 #14401]  INFO -- : reaped #<Process::Status: pid 14404 exit 0> worker=0
+I, [2015-06-16T18:24:21.372834 #14401]  INFO -- : reaped #<Process::Status: pid 14407 exit 0> worker=1
+I, [2015-06-16T18:24:21.373011 #14401]  INFO -- : master complete
+I, [2015-06-16T18:24:22.604302 #14486]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T18:24:22.604732 #14486]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T18:24:22.604950 #14486]  INFO -- : worker=0 spawning...
+I, [2015-06-16T18:24:22.608802 #14486]  INFO -- : worker=1 spawning...
+I, [2015-06-16T18:24:22.611923 #14489]  INFO -- : worker=0 spawned pid=14489
+I, [2015-06-16T18:24:22.616023 #14486]  INFO -- : master process ready
+I, [2015-06-16T18:24:22.621226 #14492]  INFO -- : worker=1 spawned pid=14492
+I, [2015-06-16T18:24:22.740799 #14489]  INFO -- : Refreshing Gem list
+I, [2015-06-16T18:24:22.751022 #14492]  INFO -- : Refreshing Gem list
+I, [2015-06-16T18:24:24.848759 #14489]  INFO -- : worker=0 ready
+I, [2015-06-16T18:24:24.854548 #14492]  INFO -- : worker=1 ready
+I, [2015-06-16T18:26:21.569533 #14486]  INFO -- : reaped #<Process::Status: pid 14489 exit 0> worker=0
+I, [2015-06-16T18:26:21.569720 #14486]  INFO -- : reaped #<Process::Status: pid 14492 exit 0> worker=1
+I, [2015-06-16T18:26:21.569894 #14486]  INFO -- : master complete
+I, [2015-06-16T18:26:22.701511 #14537]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T18:26:22.701952 #14537]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T18:26:22.702144 #14537]  INFO -- : worker=0 spawning...
+I, [2015-06-16T18:26:22.708028 #14537]  INFO -- : worker=1 spawning...
+I, [2015-06-16T18:26:22.709031 #14540]  INFO -- : worker=0 spawned pid=14540
+I, [2015-06-16T18:26:22.717214 #14537]  INFO -- : master process ready
+I, [2015-06-16T18:26:22.724226 #14543]  INFO -- : worker=1 spawned pid=14543
+I, [2015-06-16T18:26:22.834906 #14540]  INFO -- : Refreshing Gem list
+I, [2015-06-16T18:26:22.864016 #14543]  INFO -- : Refreshing Gem list
+I, [2015-06-16T18:26:27.109141 #14540]  INFO -- : worker=0 ready
+I, [2015-06-16T18:26:27.119015 #14543]  INFO -- : worker=1 ready
+I, [2015-06-16T18:27:43.840362 #14537]  INFO -- : reaped #<Process::Status: pid 14540 exit 0> worker=0
+I, [2015-06-16T18:27:43.840536 #14537]  INFO -- : reaped #<Process::Status: pid 14543 exit 0> worker=1
+I, [2015-06-16T18:27:43.840660 #14537]  INFO -- : master complete
+I, [2015-06-16T18:27:45.032153 #14589]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T18:27:45.040204 #14589]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T18:27:45.041465 #14589]  INFO -- : worker=0 spawning...
+I, [2015-06-16T18:27:45.049646 #14589]  INFO -- : worker=1 spawning...
+I, [2015-06-16T18:27:45.062050 #14592]  INFO -- : worker=0 spawned pid=14592
+I, [2015-06-16T18:27:45.065753 #14589]  INFO -- : master process ready
+I, [2015-06-16T18:27:45.079790 #14594]  INFO -- : worker=1 spawned pid=14594
+I, [2015-06-16T18:27:45.257697 #14594]  INFO -- : Refreshing Gem list
+I, [2015-06-16T18:27:45.270552 #14592]  INFO -- : Refreshing Gem list
+I, [2015-06-16T18:27:47.360857 #14594]  INFO -- : worker=1 ready
+I, [2015-06-16T18:27:47.362180 #14592]  INFO -- : worker=0 ready
+I, [2015-06-16T18:28:30.548181 #14589]  INFO -- : reaped #<Process::Status: pid 14592 exit 0> worker=0
+I, [2015-06-16T18:28:30.548334 #14589]  INFO -- : reaped #<Process::Status: pid 14594 exit 0> worker=1
+I, [2015-06-16T18:28:30.548447 #14589]  INFO -- : master complete
+I, [2015-06-16T18:28:31.717492 #14640]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T18:28:31.717947 #14640]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T18:28:31.718139 #14640]  INFO -- : worker=0 spawning...
+I, [2015-06-16T18:28:31.720038 #14640]  INFO -- : worker=1 spawning...
+I, [2015-06-16T18:28:31.724310 #14643]  INFO -- : worker=0 spawned pid=14643
+I, [2015-06-16T18:28:31.729142 #14640]  INFO -- : master process ready
+I, [2015-06-16T18:28:31.736300 #14646]  INFO -- : worker=1 spawned pid=14646
+I, [2015-06-16T18:28:31.865335 #14646]  INFO -- : Refreshing Gem list
+I, [2015-06-16T18:28:31.894883 #14643]  INFO -- : Refreshing Gem list
+I, [2015-06-16T18:28:34.278424 #14646]  INFO -- : worker=1 ready
+I, [2015-06-16T18:28:34.354107 #14643]  INFO -- : worker=0 ready
+I, [2015-06-16T18:32:13.950342 #14640]  INFO -- : reaped #<Process::Status: pid 14643 exit 0> worker=0
+I, [2015-06-16T18:32:13.950475 #14640]  INFO -- : reaped #<Process::Status: pid 14646 exit 0> worker=1
+I, [2015-06-16T18:32:13.950586 #14640]  INFO -- : master complete
+I, [2015-06-16T18:32:15.101362 #14697]  INFO -- : unlinking existing socket=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock
+I, [2015-06-16T18:32:15.101829 #14697]  INFO -- : listening on addr=/ROR/project/sinatra/warden/tmp/sockets/unicorn.sock fd=10
+I, [2015-06-16T18:32:15.102052 #14697]  INFO -- : worker=0 spawning...
+I, [2015-06-16T18:32:15.108028 #14697]  INFO -- : worker=1 spawning...
+I, [2015-06-16T18:32:15.109184 #14700]  INFO -- : worker=0 spawned pid=14700
+I, [2015-06-16T18:32:15.112953 #14697]  INFO -- : master process ready
+I, [2015-06-16T18:32:15.128228 #14703]  INFO -- : worker=1 spawned pid=14703
+I, [2015-06-16T18:32:15.259604 #14703]  INFO -- : Refreshing Gem list
+I, [2015-06-16T18:32:15.269262 #14700]  INFO -- : Refreshing Gem list
+I, [2015-06-16T18:32:17.357359 #14703]  INFO -- : worker=1 ready
+I, [2015-06-16T18:32:17.364653 #14700]  INFO -- : worker=0 ready
+I, [2015-06-16T18:35:20.171338 #14697]  INFO -- : reaped #<Process::Status: pid 14700 exit 0> worker=0
+I, [2015-06-16T18:35:20.171569 #14697]  INFO -- : reaped #<Process::Status: pid 14703 exit 0> worker=1
+I, [2015-06-16T18:35:20.171762 #14697]  INFO -- : master complete

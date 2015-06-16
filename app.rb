@@ -37,10 +37,13 @@ class SinatraImgur < Sinatra::Base
   register Sinatra::Flash
   register Sinatra::Contrib #important ==> refer to https://github.com/sinatra/sinatra-contrib
   register Sinatra::Logger
+  set :environment, :production
   set :session_secret, "supersecret"
   set :root, './'
   set :logger_log_file, lambda { "./image.log" }
   set :logger_level, :info
+
+  #puts settings.environment
   
   use Warden::Manager do |config|
     # Tell Warden how to save our User info into a session.
@@ -150,14 +153,14 @@ class SinatraImgur < Sinatra::Base
       logger.info("ERROR, #{return_message}")
       return "#{FUNCTION_FAILED},#{return_message}"
     end
-
+    
     #check if any uplad file
     unless params[:file] && (tmpfile = params[:file][:tempfile]) && (name = params[:file][:filename])
       return_message = "No file upload!!"
       logger.info("ERROR, #{return_message}")
       return "#{FUNCTION_FAILED},#{return_message}"
     end
-
+    
     #create new image & path
     image = Image.new(:image_folder => IMAGE_FOLDER, :user=> user, :album=>album, :filename=>name, :createdate=>DateTime.now)
     if image.nil?
@@ -205,8 +208,78 @@ class SinatraImgur < Sinatra::Base
     return_message = "Image #{image.path_name} Create Success!!"
     logger.info("SUCCESS, #{return_message}")
     return "#{FUNCTION_SUCCESS},#{return_message}"
-    
+
   end
+
+  post '/save_image_test' do
+    return_message = "success!!"
+    user = params['user']
+    #password = params['password']
+    album = params['album']
+
+    #check is user exist
+    if User.all(:username => user).first.nil?
+      return_message = "Wrong user name #{user}!!"
+      logger.info("ERROR, #{return_message}")
+      return "#{FUNCTION_FAILED},#{return_message}"
+    end
+
+    #check if any uplad file
+    tmpfile = params[:tmpfile]
+    name = params[:filename]
+
+    #create new image & path
+    image = Image.new(:image_folder => IMAGE_FOLDER, :user=> user, :album=>album, :filename=>name, :createdate=>DateTime.now)
+    if image.nil?
+      return_message = "DB new Image failed, user:#{user}, album:#{album}, filename:#{name}!!"
+      logger.info("ERROR, #{return_message}")
+      return "#{FUNCTION_FAILED},#{return_message}"
+    else
+        logger.info("ERROR12")
+
+      image.create_path
+    end
+
+    #check if folder exist & mkdir
+    if  Dir::exists?(image.path) != true
+      FileUtils::mkdir_p image.path
+      if  Dir::exists?(image.path) != true
+        return_message = "Folder #{image.path} create failed!!"
+        logger.info("ERROR, #{return_message}")
+        return "#{FUNCTION_FAILED},#{return_message}"
+      end
+    end
+
+    #save file and db
+    begin
+      file = File.open(image.path_name, 'wb')
+      file.write(tmpfile) 
+
+      if image.save != true
+        orig_img = Image.all(:path_name => image.path_name)
+        if orig_img != nil
+          orig_img.update(:createdate=>DateTime.now)
+        else
+          return_message = "DB Image save failed, user:#{user}, album:#{album}, filename:#{name}!!"
+          logger.info("ERROR, #{return_message}")
+          return "#{FUNCTION_FAILED},#{return_message}"
+        end
+      end      
+    rescue IOError => e
+      #some error occur, dir not writable etc.
+      return_message = "File #{image.path_name} write failed!!"
+      logger.info("ERROR, #{return_message}")      
+      return "#{FUNCTION_FAILED},#{return_message}"
+    ensure
+      file.close unless file.nil?
+    end
+
+    return_message = "Image #{image.path_name} Create Success!!"
+    logger.info("SUCCESS, #{return_message}")
+    return "#{FUNCTION_SUCCESS},#{return_message}"
+
+  end
+
 
   get '/show_image' do
     @bresult = false
@@ -363,6 +436,9 @@ class SinatraImgur < Sinatra::Base
   end
 
   post '/save_images' do
+
+     logger.info("save_images.....")      
+        
     #puts params[:image][0]
     #puts params[:image][1]
 

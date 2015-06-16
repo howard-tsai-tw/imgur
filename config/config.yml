@@ -1,0 +1,15 @@
+environment: production
+chdir: /ROR/project/sinatra/warden/
+address: 127.0.0.1
+user: root
+group: root
+port: 9000
+pid: /ROR/project/sinatra/warden/thin.pid
+rackup: /ROR/project/sinatra/warden/config.ru
+log: /ROR/project/sinatra/warden/thin.log
+max_conns: 1024
+timeout: 30
+max_persistent_conns: 512
+daemonize: true
+
+

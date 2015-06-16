@@ -10,3 +10,6 @@ gem 'warden', '1.2.3'
 gem 'shotgun', '0.9.1'
 gem 'sinatra-logger'
 gem 'do_mysql', '0.10.16'
+gem 'thin'
+gem 'unicorn'
+

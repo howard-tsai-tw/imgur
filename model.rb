@@ -4,8 +4,8 @@ require 'dm-sqlite-adapter'
 require 'bcrypt'
 #require 'dm-mysql-adapter'
 
-DataMapper.setup(:default, "sqlite://#{Dir.pwd}/db.sqlite")
-#DataMapper.setup(:default, "mysql://root:@localhost/imgdb")
+#DataMapper.setup(:default, "sqlite://#{Dir.pwd}/db.sqlite")
+DataMapper.setup(:default, "mysql://root:@localhost/imgdb")
 
 class User
   include DataMapper::Resource
