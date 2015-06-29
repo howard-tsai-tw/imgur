@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 require "sinatra/json"
+require 'json'
 require 'bundler'
 require 'fileutils'
 require "sinatra/logger"
@@ -82,31 +83,31 @@ class SinatraImgur < Sinatra::Base
     if User.all(:username => user).first.nil?
       return_message = "Wrong user name #{user}!!"
       logger.info("ERROR, #{return_message}")
-      return "#{FUNCTION_FAILED},#{return_message}"
+      return { :result => FUNCTION_FAILED, :message => return_message }.to_json
     end
 
     if User.all(:username => user).first.authenticate(password) != true
       return_message = "User:#{user}, wrong password!!"
       logger.info("ERROR, #{return_message}")
-      return "#{FUNCTION_FAILED},#{return_message}"
+      return { :result => FUNCTION_FAILED, :message => return_message }.to_json
     end
 
     #check is new user name already exist
     if User.all(:username => newuser).first.nil? != true
       return_message = "User name #{newuser} already exist!!"
       logger.info("ERROR, #{return_message}")
-      return "#{FUNCTION_FAILED},#{return_message}"
+      return { :result => FUNCTION_FAILED, :message => return_message }.to_json
     end
 
     newone = User.new(:username=>newuser, :password=>newuserpw)
     if newone.save != true
       return_message = "New user #{newuser} create failed!!"
       logger.info("ERROR, #{return_message}")
-      return "#{FUNCTION_FAILED},#{return_message}"
+      return { :result => FUNCTION_FAILED, :message => return_message }.to_json
     else
       return_message = "New user #{newuser} create success!!"
       logger.info("SUCCESS, #{return_message}")
-      return "#{FUNCTION_SUCCESS},#{return_message}"
+      return { :result => FUNCTION_SUCCESS, :message => return_message }.to_json
     end
   end
 
@@ -120,24 +121,24 @@ class SinatraImgur < Sinatra::Base
     if User.all(:username => user).first.nil?
       return_message = "Wrong user name #{user}!!"
       logger.info("ERROR, #{return_message}")
-      return "#{FUNCTION_FAILED},#{return_message}"
+      return { :result => FUNCTION_FAILED, :message => return_message }.to_json
     end
 
     if User.all(:username => user).first.authenticate(password) != true
       return_message = "User:#{user}, wrong password!!"
       logger.info("ERROR, #{return_message}")
-      return "#{FUNCTION_FAILED},#{return_message}"
+      return { :result => FUNCTION_FAILED, :message => return_message }.to_json
     end
 
     if User.all(:username => deluser).first.nil? != true
       User.all(:username => deluser).first.destroy
       return_message = "User #{deluser} be deleted!!"
       logger.info("SUCCESS, #{return_message}")
-      return "#{FUNCTION_SUCCESS},#{return_message}"
+      return { :result => FUNCTION_SUCCESS, :message => return_message }.to_json
     else
       return_message = "User #{deluser} non-exist!!"
       logger.info("ERROR, #{return_message}")
-      return "#{FUNCTION_FAILED},#{return_message}"
+      return { :result => FUNCTION_FAILED, :message => return_message }.to_json
     end
   end
   
@@ -151,14 +152,14 @@ class SinatraImgur < Sinatra::Base
     if User.all(:username => user).first.nil?
       return_message = "Wrong user name #{user}!!"
       logger.info("ERROR, #{return_message}")
-      return "#{FUNCTION_FAILED},#{return_message}"
+      return { :result => FUNCTION_FAILED, :message => return_message }.to_json
     end
     
     #check if any uplad file
     unless params[:file] && (tmpfile = params[:file][:tempfile]) && (name = params[:file][:filename])
       return_message = "No file upload!!"
       logger.info("ERROR, #{return_message}")
-      return "#{FUNCTION_FAILED},#{return_message}"
+      return { :result => FUNCTION_FAILED, :message => return_message }.to_json
     end
     
     #create new image & path
@@ -166,7 +167,7 @@ class SinatraImgur < Sinatra::Base
     if image.nil?
       return_message = "DB new Image failed, user:#{user}, album:#{album}, filename:#{name}!!"
       logger.info("ERROR, #{return_message}")
-      return "#{FUNCTION_FAILED},#{return_message}"
+      return { :result => FUNCTION_FAILED, :message => return_message }.to_json
     else
       image.create_path
     end
@@ -177,7 +178,7 @@ class SinatraImgur < Sinatra::Base
       if  Dir::exists?(image.path) != true
         return_message = "Folder #{image.path} create failed!!"
         logger.info("ERROR, #{return_message}")
-        return "#{FUNCTION_FAILED},#{return_message}"
+        return { :result => FUNCTION_FAILED, :message => return_message }.to_json
       end
     end
 
@@ -193,21 +194,21 @@ class SinatraImgur < Sinatra::Base
         else
           return_message = "DB Image save failed, user:#{user}, album:#{album}, filename:#{name}!!"
           logger.info("ERROR, #{return_message}")
-          return "#{FUNCTION_FAILED},#{return_message}"
+          return { :result => FUNCTION_FAILED, :message => return_message }.to_json
         end
       end      
     rescue IOError => e
       #some error occur, dir not writable etc.
       return_message = "File #{image.path_name} write failed!!"
       logger.info("ERROR, #{return_message}")      
-      return "#{FUNCTION_FAILED},#{return_message}"
+      return { :result => FUNCTION_FAILED, :message => return_message }.to_json
     ensure
       file.close unless file.nil?
     end
 
     return_message = "Image #{image.path_name} Create Success!!"
     logger.info("SUCCESS, #{return_message}")
-    return "#{FUNCTION_SUCCESS},#{return_message}"
+    return { :result => FUNCTION_SUCCESS, :message => return_message }.to_json
 
   end
 
@@ -221,7 +222,7 @@ class SinatraImgur < Sinatra::Base
     if User.all(:username => user).first.nil?
       return_message = "Wrong user name #{user}!!"
       logger.info("ERROR, #{return_message}")
-      return "#{FUNCTION_FAILED},#{return_message}"
+      return { :result => FUNCTION_FAILED, :message => return_message }.to_json
     end
 
     #check if any uplad file
@@ -233,7 +234,7 @@ class SinatraImgur < Sinatra::Base
     if image.nil?
       return_message = "DB new Image failed, user:#{user}, album:#{album}, filename:#{name}!!"
       logger.info("ERROR, #{return_message}")
-      return "#{FUNCTION_FAILED},#{return_message}"
+      return { :result => FUNCTION_FAILED, :message => return_message }.to_json
     else
         logger.info("ERROR12")
 
@@ -246,7 +247,7 @@ class SinatraImgur < Sinatra::Base
       if  Dir::exists?(image.path) != true
         return_message = "Folder #{image.path} create failed!!"
         logger.info("ERROR, #{return_message}")
-        return "#{FUNCTION_FAILED},#{return_message}"
+        return { :result => FUNCTION_FAILED, :message => return_message }.to_json
       end
     end
 
@@ -262,21 +263,21 @@ class SinatraImgur < Sinatra::Base
         else
           return_message = "DB Image save failed, user:#{user}, album:#{album}, filename:#{name}!!"
           logger.info("ERROR, #{return_message}")
-          return "#{FUNCTION_FAILED},#{return_message}"
+          return { :result => FUNCTION_FAILED, :message => return_message }.to_json
         end
       end      
     rescue IOError => e
       #some error occur, dir not writable etc.
       return_message = "File #{image.path_name} write failed!!"
       logger.info("ERROR, #{return_message}")      
-      return "#{FUNCTION_FAILED},#{return_message}"
+      return { :result => FUNCTION_FAILED, :message => return_message }.to_json
     ensure
       file.close unless file.nil?
     end
 
     return_message = "Image #{image.path_name} Create Success!!"
     logger.info("SUCCESS, #{return_message}")
-    return "#{FUNCTION_SUCCESS},#{return_message}"
+    return { :result => FUNCTION_SUCCESS, :message => return_message }.to_json
 
   end
 
@@ -362,40 +363,6 @@ class SinatraImgur < Sinatra::Base
 
   end
 
-  get '/get_latest_image_name' do
-    return_message = "success!!"
-    user = params['user']
-    album = params['album']
-
-    #check is user exist
-    if User.all(:username => user).first.nil?
-      return_message = "Wrong user name #{user}!!"
-      logger.info("ERROR, #{return_message}")
-      return "#{FUNCTION_FAILED},#{return_message}"
-    end
-
-    lastImg = Image.all(:user => user, :album => album, :order => [ :createdate.asc ]).last
-    if lastImg.nil?
-      return_message = "No image for user:#{user}, album:#{album}!!"
-      logger.info("ERROR, #{return_message}")
-      return "#{FUNCTION_FAILED},#{return_message}"
-    end
-    
-    if File.exists?(lastImg.path_name)
-      content = File.read(lastImg.path_name)
-      logger.info("SUCCESS, #{lastImg.path_name}")
-      imagetime = lastImg.createdate.strftime("%Y-%m-%d-%T")
-      return "#{FUNCTION_SUCCESS},#{imagetime},#{lastImg.filename}"
-    else
-      return_message = "Image file #{lastImg.path_name} not exist!!"
-      lastImg.destroy
-      logger.info("ERROR, #{return_message}")      
-      return "#{FUNCTION_FAILED},#{return_message}"
-    end
-
-  end
-
-
   #Get latest image by user & album
   #Input: user, album
   #Output:
@@ -410,7 +377,7 @@ class SinatraImgur < Sinatra::Base
     if User.all(:username => user).first.nil?
       return_message = "Wrong user name #{user}!!"
       logger.info("ERROR, #{return_message}")
-      return "#{FUNCTION_FAILED},#{return_message}"
+      return { :result => FUNCTION_FAILED, :message => return_message }.to_json
     end
 
     #lastImg = Image.all(:user => user, :album => album).last
@@ -418,22 +385,53 @@ class SinatraImgur < Sinatra::Base
     if lastImg.nil?
       return_message = "No image for user:#{user}, album:#{album}!!"
       logger.info("ERROR, #{return_message}")
-      return "#{FUNCTION_FAILED},#{return_message}"
+      return { :result => FUNCTION_FAILED, :message => return_message }.to_json
     end
     
     if File.exists?(lastImg.path_name)
       content = File.read(lastImg.path_name)
       logger.info("SUCCESS, #{lastImg.path_name}")
       imagetime = lastImg.createdate.strftime("%Y-%m-%d-%T")
-      return "#{FUNCTION_SUCCESS},#{imagetime},#{content}"
+      return { :result => FUNCTION_SUCCESS, :imagetime => imagetime, :content => content }.to_json
     else
       return_message = "Image file #{lastImg.path_name} not exist!!"
       lastImg.destroy
       logger.info("ERROR, #{return_message}")      
-      return "#{FUNCTION_FAILED},#{return_message}"
+      return { :result => FUNCTION_FAILED, :message => return_message }.to_json
     end
 
   end
+
+  get '/get_latest_image_url' do
+    return_message = "success!!"
+    user = params['user']
+    album = params['album']
+
+    #check is user exist
+    if User.all(:username => user).first.nil?
+      return_message = "Wrong user name #{user}!!"
+      logger.info("ERROR, #{return_message}")
+      return { :result => FUNCTION_FAILED, :message => return_message }.to_json
+    end
+
+    lastImg = Image.all(:user => user, :album => album, :order => [ :createdate.asc ]).last
+    if lastImg.nil?
+      return_message = "No image for user:#{user}, album:#{album}!!"
+      logger.info("ERROR, #{return_message}")
+      return { :result => FUNCTION_FAILED, :message => return_message }.to_json
+    end
+    
+    if File.exists?(lastImg.path_name)
+      logger.info("SUCCESS, #{lastImg.path_name}")
+      return { :result => FUNCTION_SUCCESS, :imageurl => "/images/upload/#{user}/#{album}/#{lastImg.filename}", :imagetime => lastImg.createdate }.to_json
+    else
+      return_message = "Image file #{lastImg.path_name} not exist!!"
+      lastImg.destroy
+      logger.info("ERROR, #{return_message}")      
+      return { :result => FUNCTION_FAILED, :message => return_message }.to_json
+    end
+  end
+
 
   post '/save_images' do
 
